@@ -23,7 +23,7 @@ public class ColorChangingView extends SurfaceView implements SurfaceHolder.Call
 
         public void sayIt(TextToSpeech tts) {
             if (tts != null) {
-                tts.speak(String.format("This is %s.", name), TextToSpeech.QUEUE_FLUSH, null);
+                tts.speak(name, TextToSpeech.QUEUE_FLUSH, null);
             }
         }
     }
@@ -73,7 +73,7 @@ public class ColorChangingView extends SurfaceView implements SurfaceHolder.Call
     }
 
     public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i1, int i2) {
-
+        
     }
 
     private void refresh(SurfaceHolder surfaceHolder) {

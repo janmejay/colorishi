@@ -1,0 +1,7 @@
+'Colorishi' helps infants learn about colors. It is a simple android app that changes colors(and says color name) on screen tap.
+
+It has no menu and runs with back-button disabled to prevent kids from getting out of the app accidentally.
+
+Home button can be used to exit out of the application.
+
+The application is licensed under GNU GPL v3. Please check the license file for details.
